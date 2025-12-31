@@ -12,5 +12,12 @@ Learning Python, AI, and Automation from scratch.
 - Built calculator
 - First programs!
 
-### Day 2
-- Coming soon...
+### Day 2 ✅
+- Data types (int, float, string, boolean)
+- Math operations
+- User input with input()
+- Type conversion
+- Built interactive calculator!
+- built age calculator
+
+### Day 3
