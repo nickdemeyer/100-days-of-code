@@ -21,3 +21,9 @@ Learning Python, AI, and Automation from scratch.
 - built age calculator
 
 ### Day 3
+- If/elif/else statement
+- Comparison opperators: ==, !=, <, >, <=, >=
+- Number guessing game
+- Smart calculator with operation selection
+- Error handling for division by zero
+- Learned about safe vs risky operations
