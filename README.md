@@ -2,7 +2,7 @@
 
 Learning Python, AI, and Automation from scratch.
 
-**Day:** 2/100  
+**Day:** 4/100  
 **Started:** December 30, 2025
 
 ## Daily Log
@@ -27,3 +27,8 @@ Learning Python, AI, and Automation from scratch.
 - Smart calculator with operation selection
 - Error handling for division by zero
 - Learned about safe vs risky operations
+
+### Day 4
+- Password login system
+- Number guessing game
+- Looping calculator
