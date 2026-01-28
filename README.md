@@ -33,14 +33,13 @@ Learning Python, AI, and Automation from scratch.
 - Number guessing game
 - Looping calculator
 
-### Refresh Day - [26/01/26] ✅
+### Refresh Days - [26/01/26] - [27/01/26] ✅
 **After 3-week break - Days 1-4 review**
-- Exercise 1: Profile card ✅
-- Exercise 2: Adventure game ✅ (learned about nested indentation!)
+**Completed all 5 exercises:**
+- Profile Card - Variables and input
+- Adventure Game - Conditionals and nested logic
+- Number Guesser - While loops with lives system
+- ATM Machine - Menu system with balance tracking
+- Ultimate Calculator - Advanced menu with history (lists!)
 
-**Still to do:**
-- Exercise 3: Number guesser
-- Exercise 4: ATM machine
-- Exercise 5: Ultimate calculator
 
-**Tomorrow:** Continue refresh exercises, then Day 5!
