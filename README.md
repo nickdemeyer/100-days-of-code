@@ -43,3 +43,12 @@ Learning Python, AI, and Automation from scratch.
 - Ultimate Calculator - Advanced menu with history (lists!)
 
 
+### Day 5 - 28/01/26
+**What I learned so far:**
+- For loops are much cleaner than while loops for counting
+- range() creates sequences (range(5), range(1,6), etc.)
+- Can loop through lists and strings easily
+- For loops reduce code and prevent infinite loop bugs
+
+
+
