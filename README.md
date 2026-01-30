@@ -50,4 +50,10 @@ Learning Python, AI, and Automation from scratch.
 - Menu with for loop
 - FizzBuzz challenge
 
-
+### Day 6 - 30/01/26
+**What I learned so far:**
+- Lists are dynamic - can grow and shrink
+- Many ways to add: append, insert, extend
+- Many ways to remove: remove, pop, del, clear
+- Slicing to get parts: [start:end]
+- Useful methods: sort, reverse, count, index
