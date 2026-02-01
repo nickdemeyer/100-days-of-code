@@ -21,3 +21,4 @@ for row in board:
     for cell in row:
         print(cell, end=" ")
     print()  # Newline after each row
+
