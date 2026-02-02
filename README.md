@@ -2,7 +2,7 @@
 
 Learning Python, AI, and Automation from scratch.
 
-**Day:** 4/100  
+**Day:** 7/100  
 **Started:** December 30, 2025
 
 ## Daily Log
@@ -50,10 +50,26 @@ Learning Python, AI, and Automation from scratch.
 - Menu with for loop
 - FizzBuzz challenge
 
-### Day 6 - 30/01/26
-**What I learned so far:**
-- Lists are dynamic - can grow and shrink
+### Day 6 - 30/01/26 - 31/01/26
+- To-Do List Manager (full CRUD application!)
+- Lists store multiple items dynamically
+- append() adds items, pop() removes them
+- len() checks list size
+- for loops with range(len()) to show numbered lists
+- Combining loops, lists, and conditionals in one program
 - Many ways to add: append, insert, extend
 - Many ways to remove: remove, pop, del, clear
 - Slicing to get parts: [start:end]
 - Useful methods: sort, reverse, count, index
+
+### Day 7 - 1/02/26
+- How to combine ALL concepts (variables, loops, lists, conditionals)
+- Detailed syntax understanding (every line explained)
+- String operations: "\n" for newlines, "="*40 for repetition
+- String concatenation with +
+- Try-except for error handling
+- List analysis with min, max, sum, count
+- Multi-round game with statistics tracking
+- Number Game Analyzer (comprehensive review project)
+
+
