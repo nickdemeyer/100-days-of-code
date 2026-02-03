@@ -106,13 +106,13 @@ If the password is guessed correctly, the program displays a success message alo
 
 What I practiced:
 
-Working with strings instead of numbers
+- Working with strings instead of numbers
 
-Comparing text input
+- Comparing text input
 
-Structuring multiple conditional checks correctly
+- Structuring multiple conditional checks correctly
 
-Understanding how if vs elif affects program flow
+- Understanding how if vs elif affects program flow
 
 Project 2 – Simple Quiz Game
 
@@ -120,13 +120,13 @@ This project asks the user three questions and keeps track of the score. After e
 
 What I practiced:
 
-Storing and updating a score variable
+- Storing and updating a score variable
 
-Building programs with multiple stages (not just loops)
+- Building programs with multiple stages (not just loops)
 
-Using conditionals to display different final outcomes
+- Using conditionals to display different final outcomes
 
-Handling user input errors (preventing crashes when converting text to numbers)
+- Handling user input errors (preventing crashes when converting text to numbers)
 
 Key Learning From Today
 
