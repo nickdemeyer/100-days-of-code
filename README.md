@@ -137,3 +137,8 @@ The order of conditions can completely change how a program behaves
 Programs should be built to handle unexpected user input
 
 Good structure makes debugging much easier
+
+
+### Day 10 - 4/02/26
+- Simple ATM Simulator
+- To do list manager
