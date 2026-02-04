@@ -76,8 +76,8 @@ Learning Python, AI, and Automation from scratch.
 - number guessing game 2 projects
 
 ### Day 9 - 3/02/26
-– Password Guessing Game
-– Simple Quiz Game
+- Password Guessing Game
+- Simple Quiz Game
 
 ### Day 10 - 4/02/26
 - ATM simulator
