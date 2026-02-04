@@ -140,5 +140,48 @@ Good structure makes debugging much easier
 
 
 ### Day 10 - 4/02/26
-- Simple ATM Simulator
-- To do list manager
+1.ATM Simulator
+
+A simple banking simulation where the user can:
+
+- Check balance
+
+- Deposit money
+
+- Withdraw money
+
+- Exit the program
+
+What I practiced:
+
+- Using a while loop to keep the program running
+
+- Updating variables correctly (fixing a bug where balance didn’t change)
+
+- Input validation (preventing negative deposits and withdrawals)
+
+- Structuring menu-based programs
+
+
+2.Task Manager (To-Do List)
+A small app where the user can:
+
+- View tasks
+
+- Add tasks
+
+- Remove tasks by selecting a number
+
+This project was much more challenging because it required deeper understanding of list logic.
+
+New concepts I had to really understand:
+
+- Lists store items using index positions starting at 0
+
+- Users think in numbers starting at 1, so I had to convert input
+
+- How to safely remove items from a list using pop()
+
+- Validating user input to avoid crashes
+
+This was my first time feeling truly stuck on program logic rather than syntax. I needed help to complete the hardest part, but I made sure to understand the solution line by line afterward.
