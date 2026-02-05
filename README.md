@@ -82,3 +82,7 @@ Learning Python, AI, and Automation from scratch.
 ### Day 10 - 4/02/26
 - ATM simulator
 - To do list manager
+
+### Day 11 - 5/02/26
+- Grocery list manager
+- Movie watchlist manager
