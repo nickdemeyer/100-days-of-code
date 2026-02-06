@@ -86,3 +86,6 @@ Learning Python, AI, and Automation from scratch.
 ### Day 11 - 5/02/26
 - Grocery list manager
 - Movie watchlist manager
+
+### Day 12 - 6/02/26
+- contact list
