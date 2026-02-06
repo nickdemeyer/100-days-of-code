@@ -1,4 +1,4 @@
-# Contact List (Python CLI App)
+# Contact List 
 
 ## 📌 Project Description
 This is a simple command-line contact list application written in Python.  
