@@ -89,3 +89,8 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 12 - 6/02/26
 - contact list
+
+### Day 13 - 7/02/26
+- fitness exercise list
+- pokemon boosterbox list
+- workout tracker
