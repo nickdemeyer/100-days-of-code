@@ -94,3 +94,6 @@ Learning Python, AI, and Automation from scratch.
 - fitness exercise list
 - pokemon boosterbox list
 - workout tracker
+
+### Day 14 - 8/02/26
+- simple library manager
