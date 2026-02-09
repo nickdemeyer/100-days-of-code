@@ -1,4 +1,4 @@
-🔹 README – Day 14 Project
+Day 14 Project
 📌 Project: Student Grade Manager (CLI)
 
 A simple command-line application built in Python to manage student names and grades.
