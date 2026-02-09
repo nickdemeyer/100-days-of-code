@@ -97,3 +97,7 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 14 - 8/02/26
 - simple library manager
+
+### Day 15 - 9/02/26
+- 10 drills
+- 1 project student grade manager
