@@ -101,3 +101,7 @@ Learning Python, AI, and Automation from scratch.
 ### Day 15 - 9/02/26
 - 10 drills
 - 1 project student grade manager
+
+### Day 16 - 10/02/26
+- 7 drills
+- workout tracker
