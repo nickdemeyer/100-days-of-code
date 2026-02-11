@@ -105,3 +105,7 @@ Learning Python, AI, and Automation from scratch.
 ### Day 16 - 10/02/26
 - 7 drills
 - workout tracker
+
+### Day 17 - 11/02/26
+- drills
+- progressive overload tracker
