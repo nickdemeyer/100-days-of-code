@@ -111,3 +111,4 @@ Learning Python, AI, and Automation from scratch.
 - progressive overload tracker
 
 ### Day 18 - 12/02/26
+- functions basics
