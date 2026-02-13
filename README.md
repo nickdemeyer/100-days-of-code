@@ -112,3 +112,6 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 18 - 12/02/26
 - functions basics
+
+### Day 19 - 13/02/26
+- workout tracker with functions
