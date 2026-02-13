@@ -1,5 +1,3 @@
-Here is a clean, copy-paste ready README.md file for your GitHub:
-
 Workout Tracker (CLI Version)
 Overview
 
