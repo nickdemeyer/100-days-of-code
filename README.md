@@ -119,3 +119,6 @@ Learning Python, AI, and Automation from scratch.
 ### Day 20 - 15/02/26
 - rebuild workout tracker
 - learning basics dictionaries
+
+### Day 21 - 16/02/26
+- practice dictionaries
