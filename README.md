@@ -122,3 +122,6 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 21 - 16/02/26
 - practice dictionaries
+
+### Day 22 - 18/02/26
+- Workout tracker with dictionaries
