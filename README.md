@@ -125,3 +125,6 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 22 - 18/02/26
 - Workout tracker with dictionaries
+
+### Day 23 - 23/02/26
+- json practice
