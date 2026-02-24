@@ -1,5 +1,9 @@
-{
-  "naam": "nick",
-  "age": 27,
-  "gym": "yes"
-}
+[
+    {
+        "date": "24/02/26",
+        "exercise": "pulldown",
+        "sets": 4,
+        "reps": 10,
+        "weight": 50
+    }
+]
