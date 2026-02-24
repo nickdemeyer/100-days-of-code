@@ -128,3 +128,6 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 23 - 23/02/26
 - json practice
+
+### Day 24 - 24/02/26
+- workouttracker with json/errorhandling
