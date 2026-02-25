@@ -131,3 +131,6 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 24 - 24/02/26
 - workouttracker with json/errorhandling
+
+### Day 25 - 25/02/26
+- object-orjiented programming (OOP) fundamentals
