@@ -135,5 +135,5 @@ Learning Python, AI, and Automation from scratch.
 ### Day 25 - 25/02/26
 - object-orjiented programming (OOP) fundamentals
 
-### Day 26 - 27/02/26
+### Day 26 - 27/02/26 and 1/03/26
 - rebuilding workout tracker with OOP
