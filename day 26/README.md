@@ -1,60 +1,90 @@
-__Workout Tracker – OOP Version__
+# 🏋️ Workout Tracker (OOP + JSON)
 
-A simple CLI Workout Tracker built in Python using Object-Oriented Programming (OOP).
+A simple CLI-based Workout Tracker built with Python using Object-Oriented Programming (OOP) principles and JSON for data persistence.
 
-This version restructures the previous functional version into a class-based architecture.
+## 🚀 Project Overview
 
-__Features__
+This project allows users to:
 
 - View workouts
-
 - Add workouts
+- Update workouts
+- Delete workouts
+- Automatically save data to a JSON file
+- Automatically load data when the program starts
 
-- Update workouts (in progress)
+The goal of this project was to better understand:
 
-- Menu-based dashboard
+- Classes and methods
+- `__init__` constructor
+- Instance attributes (`self`)
+- JSON loading and saving
+- Error handling with `try` / `except`
+- Reusing methods inside a class
+- Building a simple CLI dashboard with a loop
 
-- Workouts stored inside a class instance
+---
 
-__What I Practiced__
+## 🧠 What I Learned
 
-- Classes and objects
+### 1️⃣ Structuring an OOP Project
+Instead of writing everything as separate functions, I created a `WorkoutTracker` class that:
 
-- __init__ method
+- Stores workouts in `self.workouts`
+- Handles loading and saving data
+- Contains all CRUD methods
 
-- Instance attributes (self.workouts)
+This made the program cleaner and more organized.
 
-- Methods inside a class
+---
 
-- Calling methods through an object
+### 2️⃣ JSON Persistence
+On startup:
+- The app tries to load `data.json`
+- If the file does not exist, it starts with an empty list
 
-- Structuring a CLI app using OOP
+On exit:
+- The workouts list is saved back to `data.json`
 
-__Project Structure__
+This makes the data persistent between sessions.
 
-- WorkoutTracker class manages:
+---
 
-- Internal workout list
+### 3️⃣ Debugging Lessons
 
-- View logic
+Some key bugs I fixed:
 
-- Add logic
+- ❌ Accidentally calling a list like a function in `json.dump(self.workouts(f))`
+- ❌ Breaking f-strings by using double quotes inside double quotes
+- ❌ Forgetting to assign loaded JSON data to `self.workouts`
 
-- Update logic (WIP)
+Fixing these helped me better understand:
+- How Python reads functions vs variables
+- How string formatting works
+- How data flows inside a class
 
-- main() function:
+---
 
-- Creates the tracker object
+## 🛠 Tech Used
 
-- Displays the dashboard
+- Python
+- JSON
+- Object-Oriented Programming (OOP)
+- CLI (Command Line Interface)
 
-- Calls class methods based on user choice
+---
 
-__Example Workout Structure__
-{
-    "date": "2026-02-27",
-    "exercise": "Bench Press",
-    "sets": 4,
-    "reps": 8,
-    "weight": 80
-}
+## 📌 Future Improvements
+
+- Add input validation
+- Improve error handling
+- Refactor update method
+- Possibly convert workouts into their own class
+- Add sorting or filtering features
+
+---
+
+## 💪 Day 26 of Learning Python
+
+This project was challenging, especially understanding how classes interact with data.  
+But pushing through confusion helped me understand OOP on a deeper level.
