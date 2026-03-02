@@ -137,3 +137,7 @@ Learning Python, AI, and Automation from scratch.
 
 ### Day 26 - 27/02/26 and 1/03/26
 - rebuilding workout tracker with OOP
+
+### Day 27 - 2/03/26
+- practice basics modules
+- use modules on my workout tracker basics
