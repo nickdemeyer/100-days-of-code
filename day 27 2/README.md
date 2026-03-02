@@ -11,7 +11,6 @@ Instead of keeping everything in one file, I separated the project into:
 
 This makes the project cleaner, easier to maintain, and more professional.
 
----
 
 ## 📂 New Project Structure
 workout_tracker/
