@@ -27,7 +27,7 @@ A `.py` file is a module.
 
 To use a class from another file:
 
-```python
+python
 from tracker_class import workouttracker
 
 Now I can create an object in main.py:
@@ -47,9 +47,7 @@ This ensures that:
 This is an important concept for writing modular Python applications.
 
 3️⃣ __Thinking in Structure__
-
 Today wasn’t about adding features.
-
 It was about:
 -Organizing code
 -Understanding responsibility separation
