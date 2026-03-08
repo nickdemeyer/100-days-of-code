@@ -142,5 +142,6 @@ Learning Python, AI, and Automation from scratch.
 - practice basics modules
 - use modules on my workout tracker basics
 
-### Day 28 - 5/03/26
+### Day 28 - 5/03/26 - 8/03/26
 - start rebuild workout tracker
+- finish workout tracker
