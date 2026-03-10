@@ -1,9 +1,23 @@
 [
     {
-        "date": "8/03/26",
-        "exercise": "pulldown",
+        "date": "d",
+        "exercise": "d",
         "sets": 4,
         "reps": 10,
         "weight": 50.0
+    },
+    {
+        "date": "d",
+        "exercise": "d",
+        "sets": 4,
+        "reps": 10,
+        "weight": 50.0
+    },
+    {
+        "date": "d",
+        "exercise": "d",
+        "sets": 5,
+        "reps": 10,
+        "weight": 10.0
     }
 ]

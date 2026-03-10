@@ -56,13 +56,20 @@ class WorkoutTracker:
     def add_workouts(self):
         date = input("date today: ")
         exercise = input("exercise: ")
-        sets = int(input("number of sets: "))
-        reps = int(input("number of reps: "))
-        weight = float(input("number of weight: "))
-        w = workout(date, exercise, sets, reps, weight)
-        self.workouts.append(w)
-        self.save_workouts()
-        print("workout added")
+        while True:
+            try:
+                sets = int(input("number of sets: "))
+                reps = int(input("number of reps: "))
+                weight = float(input("number of weight: "))
+            except ValueError:
+                print("write a number, not a letter in sets/reps/Weight!")
+                continue
+            
+            w = workout(date, exercise, sets, reps, weight)
+            self.workouts.append(w)
+            self.save_workouts()
+            print("workout added")
+            break
 
     def update_workouts(self):
         if self.workouts == []:
