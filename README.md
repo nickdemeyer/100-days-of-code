@@ -145,3 +145,6 @@ Learning Python, AI, and Automation from scratch.
 ### Day 28 - 5/03/26 - 8/03/26
 - start rebuild workout tracker
 - finish workout tracker
+
+### Day 29 - 10/03/26
+- error handling basics + going over fitness tracker
