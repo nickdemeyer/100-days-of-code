@@ -76,42 +76,72 @@ class WorkoutTracker:
             print("no workouts")
             return
         self.view_workouts()
-        user_inp1 = int(input("choose number workout to change: "))
-        i = user_inp1 - 1
-        user_inp2 = input("change date/exercise/sets/reps/weight? ")
-        if user_inp2 == "date":
-            user_inp3 = input("new date: ")
-            self.workouts[i].date = user_inp3
-            self.save_workouts()
-            print("workout changed")
-        elif user_inp2 == "exercise":
-            user_inp3 = input("new exercise: ")
-            self.workouts[i].exercise = user_inp3
-            self.save_workouts()
-            print("workout changed")
-        elif user_inp2 == "sets":
-            user_inp3 = int(input("new sets: "))
-            self.workouts[i].sets = user_inp3
-            self.save_workouts()
-            print("workout changed")
-        elif user_inp2 == "reps":
-            user_inp3 = int(input("new reps: "))
-            self.workouts[i].reps = user_inp3
-            self.save_workouts()
-            print("workout changed")
-        elif user_inp2 == "weight":
-            user_inp3 = float(input("new weight: "))
-            self.workouts[i].weight = user_inp3
-            self.save_workouts()
-            print("workout changed")
+        while True:
+            try:
+                user_inp1 = int(input("choose number workout to change: "))
+            except ValueError:
+                print("give a number, not a letter!")
+                continue
+            if user_inp1 < 1 or user_inp1 > len(self.workouts):
+                print(f"choose a number between 1 and {len(self.workouts)}!")
+                continue
+            i = user_inp1 - 1
+            user_inp2 = input("change date/exercise/sets/reps/weight? ")
+            if user_inp2 == "date":
+                user_inp3 = input("new date: ")
+                self.workouts[i].date = user_inp3
+                self.save_workouts()
+                print("workout changed")
+            elif user_inp2 == "exercise":
+                user_inp3 = input("new exercise: ")
+                self.workouts[i].exercise = user_inp3
+                self.save_workouts()
+                print("workout changed")
+            elif user_inp2 == "sets":
+                try:
+                    user_inp3 = int(input("new sets: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.workouts[i].sets = user_inp3
+                self.save_workouts()
+                print("workout changed")
+            elif user_inp2 == "reps":
+                try:
+                    user_inp3 = int(input("new reps: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.workouts[i].reps = user_inp3
+                self.save_workouts()
+                print("workout changed")
+            elif user_inp2 == "weight":
+                try:
+                    user_inp3 = float(input("new weight: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.workouts[i].weight = user_inp3
+                self.save_workouts()
+                print("workout changed")
+            break
     
     def delete_workouts(self):
         if self.workouts == []:
             print("no workouts")
             return
         self.view_workouts()
-        user_inp1 = int(input("choose workout number to delete: "))
-        i = user_inp1 - 1 
-        self.workouts.pop(i)
-        self.save_workouts()
-        print("workout deleted")
+        while True:
+            try:
+                user_inp1 = int(input("choose workout number to delete: "))
+            except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+            if user_inp1 < 1 or user_inp1 > len(self.workouts):
+                print(f"choose a number between 1 and {len(self.workouts)}!")
+                continue
+            i = user_inp1 - 1 
+            self.workouts.pop(i)
+            self.save_workouts()
+            print("workout deleted")
+            break

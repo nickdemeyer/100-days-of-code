@@ -12,12 +12,5 @@
         "sets": 4,
         "reps": 10,
         "weight": 50.0
-    },
-    {
-        "date": "d",
-        "exercise": "d",
-        "sets": 5,
-        "reps": 10,
-        "weight": 10.0
     }
 ]

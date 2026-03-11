@@ -84,47 +84,77 @@ class MealTracker:
             print("no workouts")
             return
         self.view_meals()
-        user_inp1 = int(input("choose workout number to update: "))
-        i = user_inp1 - 1
-        user_inp2 = input("what change? choose: date/name/amount/calories/protein/carbs/fats: ")
-        if user_inp2 == "date":
-            user_inp3 = input("new date: ")
-            self.meals[i].date = user_inp3
-            self.save_meals()
-            print("meal updated")
-        elif user_inp2 == "name":
-            user_inp3 = input("new name: ")
-            self.meals[i].name = user_inp3
-            self.save_meals()
-            print("meal updated")
-        elif user_inp2 == "amount":
-            user_inp3 = input("new amount: ")
-            self.meals[i].amount = user_inp3
-            self.save_meals()
-            print("meal updated")
-        elif user_inp2 == "calories":
-            user_inp3 = int(input("new calories: "))
-            self.meals[i].calories = user_inp3
-            self.save_meals()
-            print("meal updated")
-        elif user_inp2 == "protein":
-            user_inp3 = int(input("new protein: "))
-            self.meals[i].protein = user_inp3
-            self.save_meals()
-            print("meal updated")
-        elif user_inp2 == "fats":
-            user_inp3 = int(input("new fats: "))
-            self.meals[i].fats = user_inp3
-            self.save_meals()
-            print("meal updated")
+        while True:
+            try:
+                user_inp1 = int(input("choose workout number to update: "))
+            except ValueError:
+                print("give a number, not a letter!")
+                continue
+            if user_inp1 < 1 or user_inp1 > len(self.meals):
+                print(f"choose a number between 1 and {len(self.meals)}!")
+                continue
+            i = user_inp1 - 1
+            user_inp2 = input("what change? choose: date/name/amount/calories/protein/carbs/fats: ")
+            if user_inp2 == "date":
+                user_inp3 = input("new date: ")
+                self.meals[i].date = user_inp3
+                self.save_meals()
+                print("meal updated")
+            elif user_inp2 == "name":
+                user_inp3 = input("new name: ")
+                self.meals[i].name = user_inp3
+                self.save_meals()
+                print("meal updated")
+            elif user_inp2 == "amount":
+                user_inp3 = input("new amount: ")
+                self.meals[i].amount = user_inp3
+                self.save_meals()
+                print("meal updated")
+            elif user_inp2 == "calories":
+                try:
+                    user_inp3 = int(input("new calories: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.meals[i].calories = user_inp3
+                self.save_meals()
+                print("meal updated")
+            elif user_inp2 == "protein":
+                try:
+                    user_inp3 = int(input("new protein: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.meals[i].protein = user_inp3
+                self.save_meals()
+                print("meal updated")
+            elif user_inp2 == "fats":
+                try:
+                    user_inp3 = int(input("new fats: "))
+                except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+                self.meals[i].fats = user_inp3
+                self.save_meals()
+                print("meal updated")
+            break
     
     def delete_meals(self):
         if self.meals == []:
             print("no workouts")
             return
         self.view_meals()
-        user_inp1 = int(input("choose meal number to delete: "))
-        i = user_inp1 - 1
-        self.meals.pop(i)
-        self.save_meals()
-        print("meal deleted")
+        while True:
+            try:
+                user_inp1 = int(input("choose meal number to delete: "))
+            except ValueError:
+                    print("give a number, not a letter!")
+                    continue
+            if user_inp1 < 1 or user_inp1 > len(self.meals):
+                print(f"choose a number between 1 and {len(self.meals)}!")
+                continue
+            i = user_inp1 - 1
+            self.meals.pop(i)
+            self.save_meals()
+            print("meal deleted")
+            break
