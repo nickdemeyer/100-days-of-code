@@ -146,5 +146,6 @@ Learning Python, AI, and Automation from scratch.
 - start rebuild workout tracker
 - finish workout tracker
 
-### Day 29 - 10/03/26
+### Day 29 - 10/03/26 - 11/03/26
 - error handling basics + going over fitness tracker
+-finishing error handling fitness app doesn't crash anymore by wrong user inputs it keeps running smoothly
